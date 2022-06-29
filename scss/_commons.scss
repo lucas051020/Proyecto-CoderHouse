@@ -1,0 +1,74 @@
+/*index.html*/
+	body{
+		background-color: $bodyColor;
+	}
+
+	h1{
+		color: $textColor;
+		margin: $margin;
+		margin-left: $marginLeft;
+		font-family: $mainFont;
+		font-size: $fontMax;
+	}
+
+	.main{
+		display: flex;
+		section{
+			color: $textColor;
+			p{
+				font-size: $fontMmd;
+				margin-left: $marginLeft;
+				margin-ritgh: $margincm;
+				font-family: $mainFont;
+			}
+		}
+		.imgindex{
+			margin: $margin;		
+		}
+	}
+
+
+/*conciertos.html*/
+	.img{
+	 display: flex;
+	 justify-content: center;
+	}
+
+	.conciertos{
+		color: $textColor;
+		font-size: $fontMmd;
+	}
+
+/*musica.hmtl*/
+	h2{
+		color:$textColor;
+		margin-left: $marginLeft;
+		font-family: $mainFont;
+		font-size: $fontMd;
+	}
+	.justify-content{
+		justify-content: space-around;
+		iframe{
+		margin: $marginL;
+		}
+	}
+
+/*fotos.html*/
+	.fotos{
+		margin: $margin;
+	}
+
+/*contacto.html*/
+	.contacto{
+		color: $textColor;
+		font-size: $fontMmd;
+		margin-left: $marginLeft;
+		margin-ritgh: $margincm;
+		font-family: $mainFont;
+	}
+
+	.formulario{
+		color: $textColor;
+		font-family: $mainFont;
+	}
+	
