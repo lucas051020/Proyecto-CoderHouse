@@ -1,10 +1,19 @@
+//mixin
+@mixin texto($fontText, $marginLeft, $mainFont, $textColor){
+	font-size: $fontText;
+	margin-left: $marginLeft;
+	font-family: $mainFont;
+	color: $textColor;
+}
+
+
 /*index.html*/
 	body{
-		background-color: $bodyColor;
+		background-color: map-get($map:$paleta, $key:'uno')
 	}
 
 	h1{
-		color: $textColor;
+		color: map-get($map:$paleta, $key:'dos');
 		margin: $margin;
 		margin-left: $marginLeft;
 		font-family: $mainFont;
@@ -13,15 +22,10 @@
 
 	.main{
 		display: flex;
-		section{
-			color: $textColor;
-			p{
-				font-size: $fontMmd;
-				margin-left: $marginLeft;
+		section p{
+				@include texto($fontText, $marginLeft, $mainFont, $textColor);
 				margin-ritgh: $margincm;
-				font-family: $mainFont;
-			}
-		}
+			}	
 		.imgindex{
 			margin: $margin;		
 		}
@@ -35,13 +39,12 @@
 	}
 
 	.conciertos{
-		color: $textColor;
-		font-size: $fontMmd;
+		@include texto($fontText, $marginLeft, $mainFont, $textColor);
 	}
 
 /*musica.hmtl*/
 	h2{
-		color:$textColor;
+		color: map-get($map:$paleta, $key:'dos');
 		margin-left: $marginLeft;
 		font-family: $mainFont;
 		font-size: $fontMd;
@@ -49,7 +52,7 @@
 	.justify-content{
 		justify-content: space-around;
 		iframe{
-		margin: $marginL;
+			margin: $marginL;
 		}
 	}
 
@@ -60,11 +63,7 @@
 
 /*contacto.html*/
 	.contacto{
-		color: $textColor;
-		font-size: $fontMmd;
-		margin-left: $marginLeft;
-		margin-ritgh: $margincm;
-		font-family: $mainFont;
+		@extend .conciertos //era para probar extends, pero no quiero agregarle nada
 	}
 
 	.formulario{

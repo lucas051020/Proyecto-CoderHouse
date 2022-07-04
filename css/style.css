@@ -10,10 +10,10 @@
 
 /*index.html*/
 body {
-  background-color: black; }
+  background-color: #000; }
 
 h1 {
-  color: white;
+  color: #FFFFFF;
   margin: 1.5rem;
   margin-left: 4rem;
   font-family: "Roboto", sans-serif;
@@ -21,13 +21,12 @@ h1 {
 
 .main {
   display: flex; }
-  .main section {
-    color: white; }
-    .main section p {
-      font-size: 1.7rem;
-      margin-left: 4rem;
-      margin-ritgh: 1.2rem;
-      font-family: "Roboto", sans-serif; }
+  .main section p {
+    font-size: 1.6rem;
+    margin-left: 4rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-ritgh: 1.2rem; }
   .main .imgindex {
     margin: 1.5rem; }
 
@@ -36,13 +35,15 @@ h1 {
   display: flex;
   justify-content: center; }
 
-.conciertos {
-  color: white;
-  font-size: 1.7rem; }
+.conciertos, .contacto {
+  font-size: 1.6rem;
+  margin-left: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white; }
 
 /*musica.hmtl*/
 h2 {
-  color: white;
+  color: #FFFFFF;
   margin-left: 4rem;
   font-family: "Roboto", sans-serif;
   font-size: 1.8rem; }
@@ -57,13 +58,6 @@ h2 {
   margin: 1.5rem; }
 
 /*contacto.html*/
-.contacto {
-  color: white;
-  font-size: 1.7rem;
-  margin-left: 4rem;
-  margin-ritgh: 1.2rem;
-  font-family: "Roboto", sans-serif; }
-
 .formulario {
   color: white;
   font-family: "Roboto", sans-serif; }
