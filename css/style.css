@@ -61,6 +61,119 @@ h2 {
 .formulario {
   color: white;
   font-family: "Roboto", sans-serif; }
+  .formulario .mx-5 {
+    margin-right: 3rem !important;
+    margin-left: 2rem !important; }
+
+/* responsive index.hmtl-480px */
+@media (max-width: 480px) {
+  h1 {
+    margin: 1rem; }
+  .main {
+    flex-direction: column; }
+    .main section p {
+      margin: 1rem; }
+    .main .redimension {
+      width: 100%;
+      height: auto;
+      align-content: center; } }
+
+/* responsive index.hmtl-768px */
+@media (max-width: 768px) {
+  h1 {
+    margin: 1rem; }
+  .main {
+    flex-direction: column; }
+    .main section p {
+      margin: 1rem; }
+    .main .redimension {
+      width: 100%;
+      height: auto;
+      align-content: center; } }
+
+/* responsive index.hmtl-1024px */
+@media (max-width: 1024px) {
+  h1 {
+    margin: 1rem; }
+  .main {
+    flex-direction: column; }
+    .main section p {
+      margin: 1rem; }
+    .main .redimension {
+      width: 100%;
+      height: auto;
+      align-content: center; } }
+
+/* responsive conciertos.hmtl-480px */
+@media (max-width: 480px) {
+  .img {
+    margin: 1rem;
+    width: 100%;
+    height: auto; }
+  h1 {
+    margin: 1rem; }
+  .conciertos, .contacto {
+    flex-direction: column; } }
+
+/* responsive conciertos.hmtl-768px */
+@media (max-width: 768px) {
+  .img {
+    margin: 1rem;
+    width: 100%;
+    height: auto; }
+  h1 {
+    margin: 1rem; } }
+
+/* responsive musica.hmtl-480px */
+@media (max-width: 480px) {
+  h2 {
+    margin: 1rem; }
+  .d-flex {
+    flex-direction: column; }
+  .justify-content {
+    justify-content: space-around;
+    align-items: center; }
+    .justify-content iframe {
+      margin: 1rem;
+      width: 75%; } }
+
+/* responsive conciertos.hmtl-768px */
+@media (max-width: 768px) {
+  h2 {
+    margin: 1rem; }
+  .d-flex {
+    flex-direction: column; }
+  .justify-content {
+    justify-content: space-around;
+    align-items: center; }
+    .justify-content iframe {
+      margin: 1rem; } }
+
+/* responsive contacto.hmtl-480px */
+@media (max-width: 480px) {
+  h1 {
+    margin: 1rem; }
+  .contacto {
+    margin: 1rem;
+    margin-right: 1rem;
+    overflow: hidden; }
+  .formulario {
+    margin: 1rem;
+    justify-content: center;
+    align-items: center; }
+    .formulario .mx-5 {
+      margin-right: 1rem;
+      margin-left: 1rem; } }
+
+/* responsive contacto.hmtl-768px */
+@media (max-width: 768px) {
+  .contacto {
+    margin-left: 1rem; } }
+
+/* responsive contacto.hmtl-1024px */
+@media (max-width: 1024px) {
+  .contacto {
+    margin-left: 1rem; } }
 
 /*footer*/
 .footer {
@@ -70,3 +183,17 @@ h2 {
   background-color: #1c2d35; }
   .footer img {
     margin: 1.5rem; }
+
+/* responsive footer-480px */
+@media (max-width: 480px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
+
+/* responsive footer-768px */
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }

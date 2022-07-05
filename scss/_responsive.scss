@@ -1,0 +1,163 @@
+/* responsive index.hmtl-480px */
+	@media(max-width: 480px){
+		h1{
+			margin: $marginLR;
+		}
+		.main{
+			flex-direction: column;
+			section p{
+				margin: $marginLR;
+			}
+			.redimension{
+				width: 100%;
+				height: auto;
+				align-content: center;;
+			}
+		}
+	}
+
+
+/* responsive index.hmtl-768px */
+	@media(max-width: 768px){
+		h1{
+			margin: $marginLR;
+		}
+		.main{
+			flex-direction: column;
+			section p{
+				margin: $marginLR;
+			}
+			.redimension{
+				width: 100%;
+				height: auto;
+				align-content: center;;
+			}
+		}
+	}
+
+
+/* responsive index.hmtl-1024px */
+	@media(max-width: 1024px){
+		h1{
+			margin: $marginLR;
+		}
+		.main{
+			flex-direction: column;
+			section p{
+				margin: $marginLR;
+			}
+			.redimension{
+				width: 100%;
+				height: auto;
+				align-content: center;;
+			}
+		}
+	}
+
+
+/* responsive conciertos.hmtl-480px */
+	@media(max-width: 480px){
+		.img{
+			margin: $marginLR;
+			width: 100%;
+			height: auto;
+		}
+
+		h1{
+			margin: $marginLR;
+		}
+
+		.conciertos{
+			flex-direction: column;
+		}
+	}
+
+
+/* responsive conciertos.hmtl-768px */
+	@media(max-width: 768px){
+		.img{
+			margin: $marginLR;
+			width: 100%;
+			height: auto;
+		}
+
+		h1{
+			margin: $marginLR;
+		}
+	}
+
+
+/* responsive musica.hmtl-480px */
+	@media(max-width: 480px){	
+		h2{
+			margin: $marginLR;
+		}
+		.d-flex{
+			flex-direction: column;
+		}
+		.justify-content{
+			justify-content: space-around;
+			align-items: center;
+			iframe{
+				margin: $marginLR;
+				width: 75%;
+			}
+		}	
+	}
+
+
+/* responsive conciertos.hmtl-768px */
+	@media(max-width: 768px){
+		h2{
+			margin: $marginLR;
+		}
+		.d-flex{
+			flex-direction: column;
+		}
+		.justify-content{
+			justify-content: space-around;
+			align-items: center;
+			iframe{
+				margin: $marginLR;
+			}
+		}	
+	}
+
+
+/* responsive contacto.hmtl-480px */
+	@media(max-width: 480px){
+		h1{
+			margin: $marginLR;
+		}
+		.contacto{
+			margin: $marginLR;
+			margin-right: $marginLR;
+			overflow: hidden;
+		}
+		.formulario{
+			margin: $marginLR;
+			justify-content:center;
+			align-items: center;
+			.mx-5 {
+			    margin-right: $marginLR;
+			    margin-left: $marginLR;
+			}
+		}	
+	}
+
+
+/* responsive contacto.hmtl-768px */
+	@media(max-width: 768px){
+		.contacto{
+			margin-left: $marginLR;
+		}
+	}
+
+
+/* responsive contacto.hmtl-1024px */
+	@media(max-width: 1024px){
+		.contacto{
+			margin-left: $marginLR;
+		}
+	}
+		

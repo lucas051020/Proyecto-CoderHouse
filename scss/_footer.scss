@@ -8,3 +8,22 @@
 		margin: $margin;
 	}	
 }
+
+/* responsive footer-480px */
+
+	@media(max-width: 480px){
+		.footer{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+/* responsive footer-768px */
+	@media(max-width: 768px){
+		.footer{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
