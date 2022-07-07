@@ -58,9 +58,8 @@
 /* responsive conciertos.hmtl-480px */
 	@media(max-width: 480px){
 		.img{
-			margin: $marginLR;
+			margin: auto;
 			width: 100%;
-			height: auto;
 		}
 
 		h1{
@@ -76,15 +75,26 @@
 /* responsive conciertos.hmtl-768px */
 	@media(max-width: 768px){
 		.img{
-			margin: $marginLR;
+			margin: auto;
 			width: 100%;
-			height: auto;
 		}
 
 		h1{
 			margin: $marginLR;
 		}
 	}
+
+/* responsive conciertos.hmtl-1024px */
+	@media(max-width: 1024px){
+		.img{
+			margin: auto;
+			width: 100%;
+		}
+
+		h1{
+			margin: $marginLR;
+		}
+	}	
 
 
 /* responsive musica.hmtl-480px */
@@ -106,7 +116,7 @@
 	}
 
 
-/* responsive conciertos.hmtl-768px */
+/* responsive musica.hmtl-768px */
 	@media(max-width: 768px){
 		h2{
 			margin: $marginLR;
@@ -122,6 +132,31 @@
 			}
 		}	
 	}
+
+
+/* responsive fotos.hmtl-480px */
+	@media(max-width: 480px){
+		.blobkquote{
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+/* responsive fotos.hmtl-768px */
+	@media(max-width: 768px){
+		.blobkquote{
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+/* responsive fotos.hmtl-1024px */
+	@media(max-width: 1024px){
+		.blobkquote{
+			flex-direction: column;
+			align-items: center;
+		}
+	}		
 
 
 /* responsive contacto.hmtl-480px */
