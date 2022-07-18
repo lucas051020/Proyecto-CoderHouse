@@ -170,13 +170,12 @@
 			overflow: hidden;
 		}
 		.formulario{
-			margin: $marginLR;
 			justify-content:center;
 			align-items: center;
-			.mx-5 {
-			    margin-right: $marginLR;
-			    margin-left: $marginLR;
+			.mx-5{
+				margin: 0rem;
 			}
+			
 		}	
 	}
 

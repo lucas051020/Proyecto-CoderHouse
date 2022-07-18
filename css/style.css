@@ -67,7 +67,8 @@ h2 {
 /*contacto.html*/
 .formulario {
   color: white;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  width: 100%; }
   .formulario .mx-5 {
     margin-right: 3rem !important;
     margin-left: 2rem !important; }
@@ -189,12 +190,10 @@ h2 {
     margin-right: 1rem;
     overflow: hidden; }
   .formulario {
-    margin: 1rem;
     justify-content: center;
     align-items: center; }
     .formulario .mx-5 {
-      margin-right: 1rem;
-      margin-left: 1rem; } }
+      margin: 0rem; } }
 
 /* responsive contacto.hmtl-768px */
 @media (max-width: 768px) {
